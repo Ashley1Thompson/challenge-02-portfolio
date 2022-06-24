@@ -4,45 +4,70 @@
     <meta charset="UTF-8">
     <title>Ashley Thompson's Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" type="image/x-icon" href="./images/favicon.ico"> 
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico"> 
   </head>
   <body>
      <div class="header" >
         <h1>Hello, <span id="imAshley"> I'm Ashley.</span></h1>
       
         <span>
-          <ul>
-            <li>
+         
                 <a href="#about-me">About Me</a>
-            </li>
-            <li>
+        
                 <a href="#projects">Projects</a>
-            </li>
-            <li>
+        
                 <a href="#contact-info">Contact Info</a>
-            </li>
-            <li>
+         
                <a href="#resume">Resume</a>
-            </li>
-          </ul>
+   
         </span>
       
       </div>
       <div class="hero">
       </div>
-      <div class="content">
-        <div id="about-me"></div> <h1>About Me</h1>
-          <p>Here is my bio</p>
-        <div id="projects"></div> <h1>Projects</h1>
-          <p>Here are my projects</p>
-        <div id="contact-info"></div> <h1>Contact Info</h1>
-          <p>Here is my Contact Information</p>
-        <div id="resume"></div> <h1>Resume</h1>
-          <p>Here is my Linkdin Resume</p>
-      </div>
+      <main class="card">
+        <div id="about-me"> <h1>About Me</h1> </div>
+          <p>I am an archaeologist turned Full-stack Developer. Archaeology has been my life's work 
+            and passion for the last 14 years. I still love the field, and getting dirt under my nails,
+            but have decided to expand my experiences and dive head-first into the world of coding. I am
+            excited about this transition and ready to learn everything I can about code!
+          </p>
+        
+          <div id="projects"> <h1>Projects</h1>
+            <div class="projects-main">
+              <div id= project1></div> 
+                  <h3>First Project</h3>
+                  <img src="../images/laptop.jpg" alt="Desktop view of laptop with coffee and plants. " class="projectImages">
+              </div>
+              <div class="projects">
+              <div id= project2></div>
+                  <h3>Second Project</h3>
+                  <img src="../images/office-desk.jpg" alt="Person working on laptop and mobile phone at desk." class="projectImages">
+                </div>
+              <div class="projects">
+              <div id= project3></div>
+                  <h3>Third Project</h3>
+                  <img src="../images/mobile-app.jpg" alt="Person using mobile phone outside" class="projectImages">
+              </div>
+              </div>
+        <div id="contact-info">   <h1>Contact Info</h1>
+          <div class="contact-info">
+            <div><img src="../images/github-icon.png" alt="GitHub Icon" class="icon"> <a href="https://www.github.com/Ashley1Thompson" target="_blank">See my code on GitHub</a></div>
+
+            <div><img src="../images/linkedin-icon.png" alt="Linkedin Icon" class="icon"><a href="https://www.linkedin.com/in/idigthere" target="_blank">Connect with me on Linkedin</a></div>
+          
+            <div><img src="../images/email-icon.png" alt="Email Icon" class="icon"><a href="mailto: idigthere@gmail.com" target="_blank">Shoot me an e-mail</a></div>
+         </div>
+        </div>
+
+        <div id="resume"> <h1>Resume</h1> </div>
+          <p>Resume Coming Soon!</p>
+
+      </main> 
       <div>
         <footer >
-        <a href="https://www.flaticon.com/free-icons/portfolio" title="portfolio icons">Portfolio icons created by Freepik - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/portfolio" title="portfolio icons" class="attribution">Portfolio icons created by Freepik - Flaticon</a>
+        <a href='https://www.freepik.com/vectors/mobile-cartoon'class="attribution">Mobile cartoon vector created by pch.vector - www.freepik.com</a>
         </footer>
       </div>
   </body>

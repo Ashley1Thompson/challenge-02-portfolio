@@ -1,13 +1,14 @@
 
 
 body {
-  display: flex
+  
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
   background-image: url("../images/sunrise.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed ;
+  
 }
 
 .header{
@@ -17,6 +18,7 @@ body {
   
 }
 
+/* this section styles the welcome text at the top */
 .header h1{
   flex-wrap: wrap;
   text-align: center;
@@ -24,48 +26,121 @@ body {
   padding: 20px 20px;
 }
 
+/* this section adds special characteristics to part of the welcome text */
 #imAshley {
   font-size: larger;
   font-family: monospace;
 
 }
 
-.header ul {
-  flex-wrap: wrap;
-  text-align: center;
-  list-style-type: none;
-    
-}
-
-.header ul li {
-  
-  display: inline-flex;
-  
-}
-
-a {
-  
-  color: white;
-  font-size: 35px;
-  padding: 20px;
-  
-}
-
-
-
+/* this section styles the hero image */
 .hero{
   background-color: #f8ebd1 ;
   background-image: url("../images/Profile_pic.jpeg");
   /* background-image: url("../images/office-banner.jpg"); */
   background-repeat: no-repeat;
   background-size: contain;
-  height:600px
+  background-position-x: center;
+  height:600px;
   
 }
 
-.content {
+/* this section styles the nav bar links */
+.header a{
+  
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 35px;
+  padding: 20px;
+  margin: 10px 10px 0 0;
+  
+}
+/* this section styles the main content boxes */
+main {
+  /* display: flex;
+  flex-flow: column wrap; */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+
+
+.card h1 {
+  text-align: center;
+  font-size: 45px;
+  color: #f8f0e1;
+  
+}
+
+.card p{
+  
+  background-color: #beb7e0;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: 5px solid white;
+  
+}
+
+.projects-main {
+  display: flex;
+  flex-flow: column wrap;
   background-color: #beb7e0;
   color: white;
   text-align: center;
-  width: 85%;
+  border: 5px solid white;
+  padding: 35px;
+
+}
+
+.projects {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #beb7e0;
+  color: white;
+  text-align: center;
+  border: 5px solid white;
+  padding: 35px;
+}
+
+.projectImages {
+  height: 50%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.contact-info{
+  background-color: #beb7e0;
+  border: 5px solid white;
+  
+}
+
+/* this section styles the icons in Contact Info  */
+.icon {
+  height: 20px;
+  padding-left: 50px;
+  margin-left: 175px;
+
+}
+
+/* this section styles the links in Contact Info only */
+a {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  margin: 10px 10px 0 0;
+  
+}
+
+
+.attribution {
+  font-size: x-small;
 }
